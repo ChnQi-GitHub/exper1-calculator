@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/mainlayout" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/StringText" android:textSize="20sp" android:text="0" android:gravity="center_vertical|end" android:layout_weight="1"/>
+
+    <TextView android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/resultText" android:textSize="20sp" android:text="0" android:gravity="center_vertical|end" android:layout_weight="1"/>
+
+
+    <GridLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_weight="3" android:rowCount="3" android:columnCount="6">
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_add" android:textSize="20sp" android:text="+" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_Left_parenthesis" android:textSize="20sp" android:text="(" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_Right_parenthesis" android:textSize="20sp" android:text=")" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_7" android:textSize="20sp" android:text="7" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_8" android:textSize="20sp" android:text="8" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_9" android:textSize="20sp" android:text="9" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_Multiply" android:textSize="20sp" android:text="*" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_point" android:textSize="20sp" android:text="." android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_Subtraction" android:textSize="20sp" android:text="—" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_4" android:textSize="20sp" android:text="4" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_5" android:textSize="20sp" android:text="5" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_6" android:textSize="20sp" android:text="6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_division" android:textSize="20sp" android:text="÷" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_sin" android:textSize="20sp" android:text="sin" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_power" android:textSize="20sp" android:text="^" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_1" android:textSize="20sp" android:text="1" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_2" android:textSize="20sp" android:text="2" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_3" android:textSize="20sp" android:text="3" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_cos" android:textSize="20sp" android:text="cos" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_tan" android:textSize="20sp" android:text="tan" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_back" android:textSize="20sp" android:text="Back" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_AC" android:textSize="20sp" android:text="AC" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_0" android:textSize="20sp" android:text="0" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_columnSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_equal" android:textSize="20sp" android:text="=" android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_rowSpan="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_DecimaltoBinary" android:textSize="20sp" android:text="10->2" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_BinarytoDecimal" android:textSize="20sp" android:text="2->10" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_DecimaltoOctal" android:textSize="20sp" android:text="10->8" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_OctaltoDecimal" android:textSize="20sp" android:text="8->10" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_DecimaltoHexadecimal" android:textSize="20sp" android:text="10->16" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_HexadecimaltoDecimal" android:textSize="20sp" android:text="16->10" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_A" android:textSize="20sp" android:text="A" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_B" android:textSize="20sp" android:text="B" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_C" android:textSize="20sp" android:text="C" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_D" android:textSize="20sp" android:text="D" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_E" android:textSize="20sp" android:text="E" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_F" android:textSize="20sp" android:text="F" android:layout_columnWeight="1" android:layout_rowWeight="1" android:visibility="gone"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_help" android:textSize="20sp" android:text="help" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_cm3todm3" android:textSize="20sp" android:text="cm->dm" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_dm3tom3" android:textSize="20sp" android:text="dm->m" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_m3tocm3" android:textSize="20sp" android:text="m3->cm3" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_KmtoM" android:textSize="20sp" android:text="Km->M" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:layout_height="0dp" android:layout_width="0dp" android:id="@+id/button_MtoCm" android:textSize="20sp" android:text="M->Cm" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+</GridLayout>
+
+</LinearLayout>
